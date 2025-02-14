@@ -17,7 +17,7 @@
     setTimeout(function() {
         for (let i = 0; i < 1; i++) {
             setTimeout(function() {
-                const rightArrowButton = document.querySelector("#right-arrow-button > ytd-button-renderer > yt-button-shape");
+                const rightArrowButton = document.querySelector("#chip-container");
                 if (rightArrowButton) {
                     rightArrowButton.click();
                 }
@@ -32,3 +32,4 @@
         }, 10);
     }, 400);
 })();
+
